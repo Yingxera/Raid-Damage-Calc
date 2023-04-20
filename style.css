@@ -1,0 +1,18 @@
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 90px;
+    text-align: left;
+    font-size: large;
+}
+
+input text {
+    display: inline-block;
+    float: left;
+    font-size: large;
+}
+
+span {
+    font-size: large;
+}

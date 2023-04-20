@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damage Calcs Woo!</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div>
+        <label for="inputHealth">Health:</label>
+        <input type="text" id="inputHealth" name="inputHealth">
+        <br>
+        <label for="inputDefence">Defence:</label>
+        <input type="text" id="inputDefence" name="inputDefence">
+        <br><br>
+        <button type="button" id="calcEHP" onclick="CalcEHP()">Calculate!</button>
+    </div>
+    <br><br>
+    <div>
+        <label for="textMitigation">Reduction:</label>
+        <span id="textMitigation" name="textMitigation"></span> <span>%</span>
+        <br>
+        <label for="textEHP">EHP:</label>
+        <span id="textEHP" name="textEHP"></span>
+    </div>
+    
+</body>
+</html>
