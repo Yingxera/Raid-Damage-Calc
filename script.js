@@ -23,7 +23,7 @@ function CalcACC() {
         chance = 0.3 + 0.67 * (1 - Math.pow(euler, (3 * (0.3 - (res - acc) / 100))));
     }
     else {
-        chance = 0.033 + 0.27 * Math.pow(euler, (6 * ((res - acc) / 100) - 0.3));
+        chance = 0.03 + 0.27 * Math.pow(euler, (6 * (((res - acc) / 100) - 0.3)));
     }
 
     document.getElementById("textDiff").innerText = acc - res;
