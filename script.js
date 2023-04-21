@@ -8,6 +8,6 @@ function CalcEHP() {
     let reduction = (0.85 * (1 - Math.pow(euler, -defence / division))).toFixed(4);
     let ehp = (health / (1 - reduction)).toFixed(0);
 
-    document.getElementById("textMitigation").innerText = reduction;
+    document.getElementById("textMitigation").innerText = reduction * 100;
     document.getElementById("textEHP").innerText = ehp;
 }
