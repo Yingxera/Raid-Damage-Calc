@@ -1,4 +1,19 @@
-label {
+input text {
+    display: inline-block;
+    float: left;
+    font-size: large;
+}
+
+span {
+    font-size: large;
+}
+
+#divEHP {
+    float: left;
+    margin-right: 70px;
+}
+
+#divEHP label {
     display: inline-block;
     float: left;
     clear: left;
@@ -7,12 +22,15 @@ label {
     font-size: large;
 }
 
-input text {
-    display: inline-block;
+#divACC {
     float: left;
-    font-size: large;
 }
 
-span {
+#divACC label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 130px;
+    text-align: left;
     font-size: large;
 }
