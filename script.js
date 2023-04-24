@@ -6,7 +6,7 @@ function CalcEHP() {
     let health = document.getElementById("inputHealth").value;
     let defence = document.getElementById("inputDefence").value;
 
-    let reduction = (0.85 * (1 - Math.pow(euler, -defence / defDivision))).toFixed(4);
+    let reduction = (0.85 * (1 - Math.pow(euler, -defence / defDivision))).toFixed(2);
     let ehp = (health / (1 - reduction)).toFixed(0);
 
     document.getElementById("textMitigation").innerText = reduction * 100;
@@ -27,5 +27,5 @@ function CalcACC() {
     }
 
     document.getElementById("textDiff").innerText = acc - res;
-    document.getElementById("textACC").innerText = ((1 - chance) * 100).toFixed(4);
+    document.getElementById("textACC").innerText = ((1 - chance) * 100).toFixed(2);
 }
