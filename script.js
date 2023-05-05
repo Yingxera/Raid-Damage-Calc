@@ -6,10 +6,10 @@ function CalcEHP() {
     let health = document.getElementById("inputHealth").value;
     let defence = document.getElementById("inputDefence").value;
 
-    let reduction = (0.85 * (1 - Math.pow(euler, -defence / defDivision))).toFixed(2);
+    let reduction = 0.85 * (1 - Math.pow(euler, -defence / defDivision));
     let ehp = (health / (1 - reduction)).toFixed(0);
 
-    document.getElementById("textMitigation").innerText = reduction * 100;
+    document.getElementById("textMitigation").innerText = (reduction * 100).toFixed(2);
     document.getElementById("textEHP").innerText = ehp;
 }
 

@@ -10,6 +10,7 @@
 </head>
 <body>
     <div id="divEHP">
+        <h2>Effective Health</h2>
         <div>
             <label for="inputHealth">Health:</label>
             <input type="text" id="inputHealth" name="inputHealth">
@@ -22,16 +23,15 @@
         <br><br>
         <div>
             <label for="textMitigation">Reduction:</label>
-            <span id="textMitigation" name="textMitigation"></span> <span>%</span>
+            <span id="textMitigation" name="textMitigation"></span><span>%</span>
             <br>
             <label for="textEHP">EHP:</label>
             <span id="textEHP" name="textEHP"></span>
         </div>
     </div>
 
-    <div id="divGap"></div>
-
     <div id="divACC">
+        <h2>Accuracy</h2>
         <div>
             <label for="inputACC">Outgoing Acc:</label>
             <input type="text" id="inputACC" name="inputACC">
@@ -47,24 +47,58 @@
             <span id="textDiff" name="textDiff"></span>
             <br>
             <label for="textACC">Chance:</label>
-            <span id="textACC" name="textACC"></span> <span>%</span>
+            <span id="textACC" name="textACC"></span><span>%</span>
         </div>
         <br><br><br>
-        <div>
+        <div id="divRef">
             <span>Quick Ref:</span>
-            <p>97% Chance: 100+ diff</p>
-            <p>95% Chance: 13 diff</p>
-            <p>90% Chance: -7 diff</p>
-            <p>80% Chance: -22 diff</p>
-            <p>70% Chance: -30 diff</p>
-            <p>50% Chance: -42 diff</p>
-            <p>30% Chance: -60 diff</p>
-            <p>20% Chance: -76 diff</p>
-            <p>10% Chance: -105 diff</p>
-            <p>3% Chance: -250+ diff</p>
+            <table>
+                <tr>
+                    <th>Chance</th>
+                    <th>Difference</th>
+                </tr>
+                <tr>
+                    <td>97%</td>
+                    <td>100+</td>
+                </tr>
+                <tr>
+                    <td>95%</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>90%</td>
+                    <td>-7</td>
+                </tr>
+                <tr>
+                    <td>80%</td>
+                    <td>-22</td>
+                </tr>
+                <tr>
+                    <td>70%</td>
+                    <td>-30</td>
+                </tr>
+                <tr>
+                    <td>50%</td>
+                    <td>-42</td>
+                </tr>
+                <tr>
+                    <td>30%</td>
+                    <td>-60</td>
+                </tr>
+                <tr>
+                    <td>20%</td>
+                    <td>-76</td>
+                </tr>
+                <tr>
+                    <td>10%</td>
+                    <td>-105</td>
+                </tr>
+                <tr>
+                    <td>3%</td>
+                    <td>-250+</td>
+                </tr>
+            </table>
         </div>
     </div>
-    
-    
 </body>
 </html>

@@ -10,7 +10,9 @@ span {
 
 #divEHP {
     float: left;
-    margin-right: 70px;
+    margin-right: 90px;
+    margin-left: 75px;
+    margin-top: 25px;
 }
 
 #divEHP label {
@@ -24,6 +26,7 @@ span {
 
 #divACC {
     float: left;
+    margin-top: 25px;
 }
 
 #divACC label {
@@ -33,4 +36,32 @@ span {
     width: 130px;
     text-align: left;
     font-size: large;
+}
+
+#divRef {
+    display: flexbox;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+}
+
+#divRef td, th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#divRef table {
+    position: relative;
+    left: 17%;
+}
+
+#divRef tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
 }
